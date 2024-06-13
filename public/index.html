@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Body -->
+  <body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo / Navbar -->
+        <div>
+          <a href="#" class="text-2xl font-bold">COOKING</a>
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400">About</a></li>
+            <li><a href="#" class="hover:text-gray-400">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Featured posts -->
+    <div class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold mb-4">Featured Posts</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Featured Post 1 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img
+            src="tiramisu-sqaure.jpg"
+            alt="tiramisu"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Tiramisu</h3>
+            <p class="text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              venenatis justo vitae leo fringilla, sed ultrices turpis varius.
+            </p>
+          </div>
+        </div>
+        <!-- Featured Post 2 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img
+            src="lasagna-recipe-f.webp"
+            alt="lasagna"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Lasagna</h3>
+            <p class="text-gray-700">
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas.
+            </p>
+          </div>
+        </div>
+        <!-- Featured Post 3 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <img src="tanghulu" alt="tanghulu" class="w-full h-40 object-cover" />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">tanghulu</h3>
+            <p class="text-gray-700">
+              Integer vulputate nisl eu est aliquet, eget iaculis dui pulvinar.
+              Nulla facilisi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category Section -->
+
+    <div class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold mb-4">Categories</h2>
+      <div class="flex flex-wrap gap-2">
+        <!-- Category -->
+        <span class="bg-blue-500 text-white px-2 py-1 rounded-full text-sm"
+          >How to cook Gun Mandu</span
+        >
+        <!-- Category 1  -->
+        <span class="bg-green-500 text-white px-2 py-1 rounded-full text-sm"
+          >How to bake Red velvet</span
+        >
+        <!-- Category 2 -->
+        <span class="bg-yellow-500 text-white px-2 py-1 rounded-full text-sm"
+          >How to make Kimchi</span
+        >
+        <!-- Category 3 -->
+        <span class="bg-indigo-500 text-white px-2 py-1 rounded-full text-sm"
+          >How to cook Chicken soup</span
+        >
+      </div>
+    </div>
+    <!-- Recent Posts Section -->
+    <div class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold mb-4">Our most recent posts</h2>
+      <ul>
+        <!-- Post 1 -->
+        <li class="mb-4">
+          <a href="#" class="text-blue-500 hover:underline"
+            >Cooking in less than 30mins</a
+          >
+          <span class="text-gray-500 text-sm ml-2">June 10, 2024</span>
+        </li>
+        <!-- Post 2 -->
+        <li class="mb-4">
+          <a href="#" class="text-blue-500 hover:underline"
+            >Cooking for a big family</a
+          >
+          <span class="text-gray-500 text-sm ml-2">June 8, 2024</span>
+        </li>
+        <!-- Post 3 -->
+        <li class="mb-4">
+          <a href="#" class="text-blue-500 hover:underline"
+            >Cooking Korean Food</a
+          >
+          <span class="text-gray-500 text-sm ml-2">June 5, 2024</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Newsletter Subscription Form -->
+    <div class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+      <form class="max-w-sm">
+        <div class="flex items-center border-b border-b-2 border-blue-500 py-2">
+          <input
+            class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+            type="email"
+            placeholder="Enter your email address"
+          />
+          <button
+            class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
+            type="button"
+          >
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto flex items-center justify-between">
+        <!-- Copyright Information -->
+        <div>
+          <p class="text-gray-400 text-sm">
+            &copy; 2024 Cooking.com. All rights reserved.
+          </p>
+        </div>
+        <!-- Footer Links -->
+        <div class="flex items-center space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+          <a href="#" class="text-gray-400 hover:text-white"
+            >Terms of Service</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- unfinished -->
+<!-- Pictures not loading -->
+<!-- Edit code later -->
